@@ -3,8 +3,6 @@
 // the real purpose is to learn how to extract information and get experience with js
 // a very good reason to ever make a project is to have fun
 
-const minimist = require("minimist");
-
 // npm init -y
 // npm install minimist
 // npm install axios
@@ -19,11 +17,9 @@ let axios = require("axios");
 let jsdom = require("jsdom");
 let excel4node = require("excel4node");
 let pdf = require("pdf-lib");
-const minimist = require("minimist");
+
 
 let args = minimist(process.argv);
 console.log(args.source);
 console.log(args.excel);
 console.log(args.dataFolder);
-
-
